@@ -1,0 +1,36 @@
+a = int(input("input a number: "))
+b = int(input("input another number: "))
+x = 9
+y = 8
+z = 7
+
+
+def myfunc():
+    print(a + b)
+
+
+myfunc()
+
+def myf(a, b, c):
+    if a > b:
+        print("X is the largest")
+    elif b > a:
+        print("Y is the largest")
+    elif a > c:
+        print("X is the largest")
+    elif c > a:
+        print("Z is the largest")
+    elif b > c:
+        print("Y is the largest")
+    elif c > b:
+        print("Z is the largest")
+
+
+myf(x, y, z)
+
+
+ab = str(input("Input a num and ill reverse it: "))
+def reverse(ab):
+    print(ab[::-1])
+
+reverse(ab)
